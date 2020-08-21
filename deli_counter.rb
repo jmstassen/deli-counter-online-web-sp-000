@@ -6,7 +6,7 @@ def line(katz_deli)
     array_with_numbers = ["The line is currently: "]
     katz_deli.each do |name|
       array_with_numbers << count
-      array_with_numbers << ". #{name}"
+      array_with_numbers << ". #{name} "
       count += 1
 
     end
