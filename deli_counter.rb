@@ -7,7 +7,7 @@ def line(katz_deli)
     katz_deli.each do |name|
       array_with_numbers << " "
       array_with_numbers << count
-      array_with_numbers << ". #{name} "
+      array_with_numbers << ". #{name}"
       count += 1
     end
     puts array_with_numbers.join
