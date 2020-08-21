@@ -8,6 +8,7 @@ def line(katz_deli)
       array_with_numbers << count
       array_with_numbers << ". #{name}"
       count += 1
+      array_with_numbers
     end
       string_with_numbers = array_with_numbers.join
     puts "The line is currently: " + string_with_numbers
