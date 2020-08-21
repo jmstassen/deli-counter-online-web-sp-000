@@ -8,7 +8,9 @@ def line(katz_deli)
       array_with_numbers << count
       array_with_numbers << ". #{name}"
       count += 1
+
     end
+    puts array_with_numbers.join
   end
 end
 
