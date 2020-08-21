@@ -10,7 +10,7 @@ def line(katz_deli)
     end
       string_with_numbers = array_with_numbers.join
     puts "The line is currently: " + string_with_numbers
-
+  end
 end
 
 def take_a_number(katz_deli, name)
