@@ -29,5 +29,4 @@ def now_serving(katz_deli)
     katz_deli.shift
     return katz_deli
   end
-
 end
