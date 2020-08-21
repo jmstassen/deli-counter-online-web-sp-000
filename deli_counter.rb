@@ -4,6 +4,7 @@ def line(katz_deli)
   else
     count = 1
     katz_deli.each do |name|
+      array_with_numbers = []
       array_with_numbers << count
       array_with_numbers << ". #{name}"
       count += 1
